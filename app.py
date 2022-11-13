@@ -90,5 +90,5 @@ def handle_text_message(event):
             line_bot_api.reply_message(event.reply_token,TextSendMessage(text=text_out))
                      
 if __name__ == "__main__":          
-    app.run(port=5001)
+    app.run(port=5002)
 
